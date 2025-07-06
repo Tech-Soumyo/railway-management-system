@@ -1,5 +1,5 @@
-import prisma from "../src/config/database";
-import { config } from "../src/config/env";
+import prisma from "../src/config/database.config";
+import { config } from "../src/config/env.config";
 
 console.log(config);
 
